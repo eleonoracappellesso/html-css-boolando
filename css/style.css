@@ -10,6 +10,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /*.debug {
     border: 1px solid red;
 }*/
@@ -192,6 +196,37 @@ h3 {
 .col:hover img.h-image {
     display: block;
     cursor: pointer;
+}
+
+/*main page2*/
+
+.img-container {
+    width: 60%;
+}
+
+.content {
+    width: 40%;
+    margin: 30px;
+}
+
+p {
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.cart {
+    background-color: var(--orange);
+    width: 100px;
+    margin-top: 20px;
+    padding: 10px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    color: white;
+}
+
+.cart:hover {
+    box-shadow: 5px 5px 5px var(--dark-grey);
 }
 
 /*footer*/
