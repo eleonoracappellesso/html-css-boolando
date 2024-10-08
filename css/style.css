@@ -1,7 +1,9 @@
-/*general
--- 
+/*general*/
+:root {
+    --orange: #FF6900;
+    --dark-grey: #1A1A1A;
+}
 
-*/
 * {
     margin: 0;
     padding: 0;
@@ -12,19 +14,31 @@
     border: 1px solid red;
 }
 
+/*utility*/
+
 .d-flex {
     display: flex;
 }
 
+.p-fixed {
+    position: fixed;
+    top: 0px;
+}
+
 /*header*/
 header {
-    
+    background-color: var(--orange);
+    color: white;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
 }
 
 /*main*/
 main {
     max-width: 1200px;
-    margin: auto;
+    margin: 100px auto;
+
 }
 
 .row {
@@ -38,4 +52,13 @@ main {
     width: calc((100% - 10px) / 3);
 }
 
+.col img {
+    width:100%;
+    display: block;
+}
+
 /*footer*/
+footer {
+    background-color: var(--dark-grey);
+    color: white;
+}
