@@ -91,6 +91,12 @@ header img {
 
 ul {
     list-style: none;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 .icons {
@@ -101,6 +107,16 @@ ul {
 main {
     max-width: 1200px;
     margin: 85px auto;
+}
+
+h2 {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+h3 {
+    font-size: 15px;
+    font-weight: lighter;
 }
 
 .row {
@@ -150,8 +166,12 @@ main {
     top: 5px;
     right: 0;
     background-color: white;
-    padding: 10px;
     font-size: 1.5em;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*footer*/
