@@ -10,9 +10,9 @@
     box-sizing: border-box;
 }
 
-.debug {
+/*.debug {
     border: 1px solid red;
-}
+}*/
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -180,4 +180,17 @@ footer {
     color: white;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+footer ul {
+    font-weight: lighter;
+}
+
+h4 , h5 {
+    line-height: 3;
+}
+
+footer .icons {
+    display: flex;
+    gap: 13px;
 }
