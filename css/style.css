@@ -107,6 +107,15 @@ main {
     background-color: green;
 }
 
+.heart {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    background-color: white;
+    padding: 10px;
+    font-size: 1.5em;
+}
+
 /*footer*/
 footer {
     background-color: var(--dark-grey);
