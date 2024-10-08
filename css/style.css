@@ -1,0 +1,41 @@
+/*general
+-- 
+
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.debug {
+    border: 1px solid red;
+}
+
+.d-flex {
+    display: flex;
+}
+
+/*header*/
+header {
+    
+}
+
+/*main*/
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.col {
+    position: relative;
+    width: calc((100% - 10px) / 3);
+}
+
+/*footer*/
