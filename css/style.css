@@ -25,6 +25,27 @@
     top: 0px;
 }
 
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.text-red {
+    color: red;
+}
+
 /*header*/
 header {
     background-color: var(--orange);
