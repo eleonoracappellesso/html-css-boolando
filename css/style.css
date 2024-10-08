@@ -14,6 +14,10 @@
     border: 1px solid red;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /*utility*/
 
 .d-flex {
@@ -59,7 +63,6 @@ header {
 main {
     max-width: 1200px;
     margin: 100px auto;
-
 }
 
 .row {
@@ -76,6 +79,32 @@ main {
 .col img {
     width:100%;
     display: block;
+}
+
+.badge {
+    position: absolute;
+    bottom: 85px;
+    left: 0;
+    padding: 5px;
+    color: white;
+    font-weight: bolder;
+}
+
+.badge2 {
+    position: absolute;
+    bottom: 85px;
+    left: 50px;
+    padding: 5px;
+    color: white;
+    font-weight: bolder;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
 }
 
 /*footer*/
