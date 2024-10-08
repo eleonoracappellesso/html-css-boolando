@@ -81,6 +81,9 @@ header {
     align-items: baseline;
 }
 
+a:hover {
+    text-decoration: underline;
+}
 
 nav {
     width: 100%;
@@ -195,6 +198,10 @@ h3 {
 
 .col:hover img.h-image {
     display: block;
+    cursor: pointer;
+}
+
+.icons:hover {
     cursor: pointer;
 }
 
