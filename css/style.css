@@ -20,8 +20,25 @@ body {
 
 /*utility*/
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .d-flex {
     display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.align-items {
+    align-items: center;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
 }
 
 .p-fixed {
@@ -57,12 +74,33 @@ header {
     width: 100%;
     z-index: 1000;
     display: flex;
+    align-items: baseline;
+}
+
+
+nav {
+    width: 100%;
+    align-content: space-between;
+}
+
+header img {
+    align-items: center;
+    height: 40px;
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+.icons {
+    gap: 10px;
 }
 
 /*main*/
 main {
     max-width: 1200px;
-    margin: 100px auto;
+    margin: 85px auto;
 }
 
 .row {
